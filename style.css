@@ -1,0 +1,60 @@
+body {
+	background: url(media/fon-header.jpg);
+	background-attachment: fixed;
+}
+
+.row.hd1 {
+	margin-top: 20%;
+}
+
+.row.hd2 {
+	margin-top: 20%;
+	padding: 10%;
+}
+
+.row.hd3 {
+	padding: 10%;
+}
+
+.row.hd3 b {
+	color: #842323;
+}
+
+.row.hd4 {
+	padding: 15%;
+	background: url(media/fon-footer.jpg);
+	background-attachment: fixed;
+}
+
+.row.hd4 b {
+	font-size: 60px
+}
+
+.header {
+	font-size: 90px;
+	font-weight: 500;
+}
+
+p, .header {
+	color: white;
+}
+
+p {
+	font-size: 30px;
+}
+
+b {
+	font-size: 35px;
+}
+
+@media (max-width: 543px) {
+	.header {
+		font-size: 50px;
+	}
+	.row.hd3 big {
+		font-size: 40px;
+	}
+	.row.hd4 div b {
+		font-size: 40px;
+	}
+}
